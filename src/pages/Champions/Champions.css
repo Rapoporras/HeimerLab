@@ -1,0 +1,11 @@
+.graficas {
+  width: 30%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.imagencamp {
+  width: 100%;
+  border: 1px transparent;
+  border-radius: 0em 1em 2em 0em;
+}

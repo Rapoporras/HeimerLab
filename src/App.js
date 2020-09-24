@@ -1,25 +1,22 @@
-import React, {Component} from 'react';
-import Contacts from './components/contacts';
+import React from "react";
+import { Container } from "rsuite";
+import "./pages/Champions/Champions.css";
+import Champions from "./pages/Champions/Champions";
 
-class App extends Component {
-    render() {
-        return (
-            <Contacts contacts={this.state.contacts} />
-        )
-    }
+class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-    state = {
-        contacts: []
-    };
+    this.state = {};
+  }
 
-    componentDidMount() {
-        fetch('http://ddragon.leagueoflegends.com/cdn/10.16.1/data/en_US/item.json')
-            .then(res => res.json())
-            .then((data) => {
-                this.setState({ contacts: data.data })
-            })
-            .catch(console.log)
-    }
+  render() {
+    return (
+      <Container style={{ padding: 20 }}>
+        <Champions></Champions>
+      </Container>
+    );
+  }
 }
 
 export default App;

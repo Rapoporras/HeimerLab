@@ -1,0 +1,39 @@
+{
+  "PLAYINGEVENTD1P1": {
+    "fecha": "",
+    "grupo": "",
+    "MAD_LIONS": {
+      "TOP": {
+        "player": "Orome",
+        "champion": "",
+        "stats":{
+            "k":"",
+            "d":"",
+            "a":"",
+            "gold":"",
+            "cs":""
+        }
+      },
+      "JUNGLE": {},
+      "MID": {},
+      "ADC": {},
+      "SUPPORT": {},
+      "gold": "",
+      "kills": "",
+      "ward_placed": "",
+      "team": "",
+      "turrent": "",
+      "inivitor": "",
+      "dragon": "",
+      "baron": "",
+      "herald": "",
+      "bans": ["hola","jpña"]
+    },
+    "INTZ": {},
+    "ganador": "",
+    "first_blood": "",
+    "first_turrent": "",
+    "largest_multi_kill": "",
+    "largest_killing_spree": ""
+  }
+}

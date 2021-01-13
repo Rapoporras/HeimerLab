@@ -13,7 +13,7 @@ function Datoscampeon(props) {
   let pickrate = (props.stats[fase].pick * 100) / props.stats[fase].games;
   let kda = parseFloat(
     (props.stats[fase].kill + props.stats[fase].assits) /
-      props.stats[fase].death
+    props.stats[fase].death
   );
 
   kda = Math.round(kda).toFixed(2);
@@ -26,37 +26,38 @@ function Datoscampeon(props) {
         bodyFill
         style={{ display: "inline-block" }}
       >
-       
+
         <Row>
           <Col md={24} sm={24}>
             <Row>
-            <Col  md={8} sm={24}> <img src={props.image} className="imagencamp" /></Col>
-              <Col md={16} sm={24} style={{textAlign:"center"}}>
+              <Col md={8} sm={24}> <img src={props.image} className="imagencamp" /></Col>
+              <Col md={16} sm={24} style={{ textAlign: "center" }}>
                 <h4>{props.name}</h4>
-                <h5>KDA: {kda}</h5>
+                {/* <h5>KDA: {kda}</h5>
                 <p>
-              Kills: {props.stats[fase].kill} Assits: {props.stats[fase].assits}{" "}
+                  Kills: {props.stats[fase].kill} Assits: {props.stats[fase].assits}{" "}
               Death: {props.stats[fase].death}
-            </p>
+                </p> */}
+                <div style={{ marginTop: 5 }}>
+                  <div className="graficas">
+                    <Circle percent={pickrate} />
+                Pick Rate
+              </div>
+                  <div className="graficas">
+                    <Circle percent={banrate} strokeColor="#ffc107" />
+                Ban Rate
+              </div>
+                  <div className="graficas">
+                    <Circle percent={winrate} />
+                Win Rate
+              </div>
+                </div>
               </Col>
             </Row>
           </Col>
           <Col md={24} sm={24} style={{ textAlign: "center" }}>
-            
-            <div style={{ marginTop: 5 }}>
-              <div className="graficas">
-                <Circle percent={pickrate} />
-                Pick Rate
-              </div>
-              <div className="graficas">
-                <Circle percent={banrate} strokeColor="#ffc107" />
-                Ban Rate
-              </div>
-              <div className="graficas">
-                <Circle percent={winrate} />
-                Win Rate
-              </div>
-            </div>
+
+
           </Col>
         </Row>
       </Panel>

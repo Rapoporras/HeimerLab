@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Grid, Row, Col, Panel } from "rsuite";
 import fire from "../assets/fire";
-
+import "./AddCampeon.css";
 import firebaseConf from "../assets/fire";
 
 function CargarProyecto(props) {
@@ -10,19 +10,11 @@ function CargarProyecto(props) {
   array = Object.values(props.campeones);
 
   if (array.length !== 0) {
-
     campeonesList = array.map((campeon) => {
       return (
-        <Col xs={24} sm={4} md={4} key={campeon.key}>
-          <Panel
-            shaded
-            bordered
-            bodyFill
-            style={{ display: "inline-block",  }}
-          >
-            <img src={campeon.image}  />
-            <Panel header={campeon.name}></Panel>
-          </Panel>
+        <Col xs={24} sm={2} md={2} key={campeon.key} style={{marginBottom: 10, color: "black",textAlign:"center",fontSize:11}}>
+          <img src={campeon.image} className="imgcampeon" />
+          {campeon.name}
         </Col>
       );
     });
@@ -356,8 +348,11 @@ class AddCampeon extends React.Component {
   }
 
   componentDidMount() {
-    
-    this.database = fire.database().ref().child("Champions").orderByChild("name");
+    this.database = fire
+      .database()
+      .ref()
+      .child("Champions")
+      .orderByChild("name");
     this.database.on("value", (snap) => {
       this.setState({ campeones: snap.val() });
     });
@@ -366,10 +361,10 @@ class AddCampeon extends React.Component {
   render() {
     // const { campeones } = this.state;
     return (
-      <Container style={{ padding: 20, backgroundColor: "red" }}>
+      <Container style={{ padding: 20 }}>
         <Grid fluid>
           <Row>
-            <Col xs={6}>
+            <Col xs={4}>
               <div>
                 {this.state.alert && (
                   <div
@@ -383,7 +378,7 @@ class AddCampeon extends React.Component {
                 )}
                 <div className="container" style={{ padding: `40px 0px` }}>
                   <div className="row">
-                    <div className="col-sm-4">
+                    <div className="col-sm-12">
                       <h2>Añadir Campeon</h2>
                       <form
                         onSubmit={this.sendMessage.bind(this)}
@@ -419,7 +414,7 @@ class AddCampeon extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col xs={18}>
+            <Col xs={20}>
               <CargarProyecto campeones={this.state.campeones}></CargarProyecto>
             </Col>
           </Row>

@@ -1,0 +1,1829 @@
+{
+  "begin_at": "2019-07-07T22:01:25Z",
+  "complete": true,
+  "detailed_stats": true,
+  "end_at": "2019-07-07T22:35:30Z",
+  "finished": true,
+  "forfeit": false,
+  "id": 206047,
+  "length": 1500,
+  "match": {
+    "begin_at": "2019-07-07T22:01:24Z",
+    "detailed_stats": true,
+    "draw": false,
+    "end_at": "2019-07-07T22:35:30Z",
+    "forfeit": false,
+    "game_advantage": null,
+    "games": [
+      {
+        "begin_at": "2019-07-07T22:01:25Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2019-07-07T22:35:30Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 206047,
+        "length": 1500,
+        "match_id": 545034,
+        "position": 1,
+        "status": "finished",
+        "video_url": null,
+        "winner": {
+          "id": 389,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "id": 545034,
+    "league": {
+      "id": 4198,
+      "image_url": "https://cdn.dev.pandascore.co/images/league/image/4198/220px-LCS_2020_Logo.png",
+      "modified_at": "2020-02-13T15:22:42Z",
+      "name": "LCS",
+      "slug": "league-of-legends-lcs",
+      "url": "https://nexus.leagueoflegends.com/en-us/esports/"
+    },
+    "league_id": 4198,
+    "live": {
+      "opens_at": "2019-07-07T21:46:24Z",
+      "supported": true,
+      "url": "wss://live.dev.pandascore.co/matches/545034"
+    },
+    "live_embed_url": "https://player.twitch.tv/?channel=riotgames",
+    "match_type": "best_of",
+    "modified_at": "2019-07-07T22:53:53Z",
+    "name": "CLG vs TSM",
+    "number_of_games": 1,
+    "official_stream_url": "https://www.twitch.tv/riotgames",
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "CLG",
+          "id": 389,
+          "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+          "location": "US",
+          "modified_at": "2020-12-09T10:30:51Z",
+          "name": "Counter Logic Gaming",
+          "slug": "counter-logic-gaming"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "TSM",
+          "id": 387,
+          "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+          "location": "US",
+          "modified_at": "2020-12-07T19:09:41Z",
+          "name": "Team SoloMid",
+          "slug": "solomid"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2019-07-07T22:00:00Z",
+    "rescheduled": false,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 389
+      },
+      {
+        "score": 0,
+        "team_id": 387
+      }
+    ],
+    "scheduled_at": "2019-07-07T22:00:00Z",
+    "serie": {
+      "begin_at": "2019-05-31T22:00:00Z",
+      "description": null,
+      "end_at": "2019-09-09T18:00:00Z",
+      "full_name": "Summer 2019",
+      "id": 1795,
+      "league_id": 4198,
+      "modified_at": "2019-12-27T12:34:59Z",
+      "name": "",
+      "season": "Summer",
+      "slug": "league-of-legends-lcs-summer-2019",
+      "tier": null,
+      "winner_id": 390,
+      "winner_type": "Team",
+      "year": 2019
+    },
+    "serie_id": 1795,
+    "slug": "counter-logic-gaming-vs-tsm-2019-07-08",
+    "status": "finished",
+    "streams": {
+      "english": {
+        "embed_url": null,
+        "raw_url": null
+      },
+      "official": {
+        "embed_url": "https://player.twitch.tv/?channel=riotgames",
+        "raw_url": "https://www.twitch.tv/riotgames"
+      },
+      "russian": {
+        "embed_url": null,
+        "raw_url": null
+      }
+    },
+    "tournament": {
+      "begin_at": "2019-05-31T22:00:00Z",
+      "end_at": "2019-08-06T18:00:00Z",
+      "id": 2378,
+      "league_id": 4198,
+      "live_supported": true,
+      "modified_at": "2019-08-05T11:54:55Z",
+      "name": "Regular season",
+      "prizepool": null,
+      "serie_id": 1795,
+      "slug": "league-of-legends-lcs-summer-2019-regular-season",
+      "winner_id": 390,
+      "winner_type": "Team"
+    },
+    "tournament_id": 2378,
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "videogame_version": {
+      "current": false,
+      "name": "9.12.1"
+    },
+    "winner": {
+      "acronym": "CLG",
+      "id": 389,
+      "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+      "location": "US",
+      "modified_at": "2020-12-09T10:30:51Z",
+      "name": "Counter Logic Gaming",
+      "slug": "counter-logic-gaming"
+    },
+    "winner_id": 389
+  },
+  "match_id": 545034,
+  "players": [
+    {
+      "assists": 3,
+      "champion": {
+        "id": 2351,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/723076f895babdd840b0edd87efc57ea.png",
+        "name": "Cassiopeia"
+      },
+      "deaths": 3,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 9231,
+      "gold_spent": 9225,
+      "items": [
+        {
+          "id": 674,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/9c02f85baad83190f2c8427aedc33eac.png",
+          "is_trinket": false,
+          "name": "Blasting Wand"
+        },
+        {
+          "id": 729,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1f0567dfa7af0cef5a8853ca18c97985.png",
+          "is_trinket": true,
+          "name": "Farsight Alteration"
+        },
+        {
+          "id": 741,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/c01fea8b1380705de7c0237bb967b749.png",
+          "is_trinket": false,
+          "name": "Doran's Ring"
+        },
+        {
+          "id": 826,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/94ba246522f2573641bf7900070e25ad.png",
+          "is_trinket": false,
+          "name": "Seraph's Embrace"
+        },
+        {
+          "id": 1651,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/42960b386e8f9d96614882d415fe5614.png",
+          "is_trinket": false,
+          "name": "Fiendish Codex"
+        },
+        {
+          "id": 2297,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/994d1f8fe18f9c8699c6156eec280eca.png",
+          "is_trinket": false,
+          "name": "Liandry's Torment"
+        }
+      ],
+      "kills": 3,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 12,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 12,
+        "players": 3,
+        "turrets": 0,
+        "wards": 4
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 2,
+      "largest_multi_kill": 1,
+      "level": 13,
+      "magic_damage": {
+        "dealt": 91140,
+        "dealt_to_champions": 12846
+      },
+      "masteries": [],
+      "minions_killed": 193,
+      "opponent": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "physical_damage": {
+        "dealt": 9205,
+        "dealt_to_champions": 79,
+        "taken": 4358
+      },
+      "player": {
+        "birth_year": 1996,
+        "birthday": "1996-02-21",
+        "first_name": "Søren",
+        "hometown": "Denmark",
+        "id": 40,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/40/220px_tsm_bjergsen_2020_split_1.png",
+        "last_name": "Bjerg",
+        "name": "Bjergsen",
+        "nationality": "DK",
+        "role": "mid",
+        "slug": "bjergsen"
+      },
+      "player_id": 40,
+      "role": "mid",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 39,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/76f3d1cbc7111379f6efe2d1098b04c4.png",
+          "name": "Teleport"
+        }
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "total_damage": {
+        "dealt": 100345,
+        "dealt_to_champions": 12926,
+        "taken": 14166
+      },
+      "total_heal": 5100,
+      "total_time_crowd_control_dealt": 338,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 0,
+        "dealt_to_champions": 0,
+        "taken": 506
+      },
+      "wards": {
+        "placed": 12,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 6
+      },
+      "wards_placed": 12
+    },
+    {
+      "assists": 2,
+      "champion": {
+        "id": 2525,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/e7eb3fb357e71d7673434cef9ca1ffe2.png",
+        "name": "Gragas"
+      },
+      "deaths": 2,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 4831,
+      "gold_spent": 4600,
+      "items": [
+        {
+          "id": 668,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/d6a1ce827435acb5a1fab37eb98a5076.png",
+          "is_trinket": false,
+          "name": "Null-Magic Mantle"
+        },
+        {
+          "id": 671,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/eaeace1bb7180c18fadbeb8853ce78f9.png",
+          "is_trinket": false,
+          "name": "Cloth Armor"
+        },
+        {
+          "id": 761,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/e67f1f759ef665f446f5b43799cfe649.png",
+          "is_trinket": false,
+          "name": "Glacial Shroud"
+        },
+        {
+          "id": 763,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/5ba37eac42cc49bc63105bcd274482de.png",
+          "is_trinket": false,
+          "name": "Control Ward"
+        },
+        {
+          "id": 1649,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/02b26d6b82ec3b0f8ca1b8f7c2f287d4.png",
+          "is_trinket": false,
+          "name": "Ninja Tabi"
+        },
+        {
+          "id": 1650,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/2be8a2aee6c46dbf952a54e1d63c457b.png",
+          "is_trinket": true,
+          "name": "Oracle Lens"
+        },
+        {
+          "id": 2280,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/f999f4c6e6a368bb7c9dc10af7bccd05.png",
+          "is_trinket": false,
+          "name": "Frostfang"
+        }
+      ],
+      "kills": 0,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 0,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 0,
+        "players": 0,
+        "turrets": 0,
+        "wards": 6
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 0,
+      "largest_multi_kill": 0,
+      "level": 9,
+      "magic_damage": {
+        "dealt": 5659,
+        "dealt_to_champions": 1962
+      },
+      "masteries": [],
+      "minions_killed": 15,
+      "opponent": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "physical_damage": {
+        "dealt": 1633,
+        "dealt_to_champions": 272,
+        "taken": 2417
+      },
+      "player": {
+        "birth_year": 1997,
+        "birthday": "1997-02-10",
+        "first_name": "Andy",
+        "hometown": "Canada",
+        "id": 53,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/53/220px_clg_smoothie_2020_split_1.png",
+        "last_name": "Ta",
+        "name": "Smoothie",
+        "nationality": "CA",
+        "role": "sup",
+        "slug": "smoothie"
+      },
+      "player_id": 53,
+      "role": "sup",
+      "runes": [],
+      "spells": [
+        {
+          "id": 26,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/fc6bf1688506336009ccf19c4955aa18.png",
+          "name": "Ignite"
+        },
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        }
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "total_damage": {
+        "dealt": 9812,
+        "dealt_to_champions": 2514,
+        "taken": 8360
+      },
+      "total_heal": 2355,
+      "total_time_crowd_control_dealt": 88,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 2519,
+        "dealt_to_champions": 280,
+        "taken": 124
+      },
+      "wards": {
+        "placed": 37,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 12
+      },
+      "wards_placed": 37
+    },
+    {
+      "assists": 9,
+      "champion": {
+        "id": 2353,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/333a3cf69198e947cd5eca7d47d56726.png",
+        "name": "Corki"
+      },
+      "deaths": 1,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 12927,
+      "gold_spent": 10208,
+      "items": [
+        {
+          "id": 658,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/10a2d40528e72648c9f385a371046365.png",
+          "is_trinket": false,
+          "name": "Cloak of Agility"
+        },
+        {
+          "id": 686,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/cca73841a0e9c351079ac62854217208.png",
+          "is_trinket": true,
+          "name": "Warding Totem (Trinket)"
+        },
+        {
+          "id": 692,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1308efec82ddc88b23c3bd862e78544d.png",
+          "is_trinket": false,
+          "name": "Pickaxe"
+        },
+        {
+          "id": 774,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/7435cc1cbd363cebc83363809250d07d.png",
+          "is_trinket": false,
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "id": 859,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/51d3892c24cc01b3065523faa111c36a.png",
+          "is_trinket": false,
+          "name": "Trinity Force"
+        },
+        {
+          "id": 2329,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/af27920e7b84a40894e4e7c8c60607ff.png",
+          "is_trinket": false,
+          "name": "Rapid Firecannon"
+        }
+      ],
+      "kills": 6,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 24,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 17,
+        "players": 6,
+        "turrets": 2,
+        "wards": 9
+      },
+      "kills_series": {
+        "double_kills": 1,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 1584,
+      "largest_killing_spree": 4,
+      "largest_multi_kill": 2,
+      "level": 15,
+      "magic_damage": {
+        "dealt": 121156,
+        "dealt_to_champions": 10873
+      },
+      "masteries": [],
+      "minions_killed": 227,
+      "opponent": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "physical_damage": {
+        "dealt": 18464,
+        "dealt_to_champions": 1115,
+        "taken": 4554
+      },
+      "player": {
+        "birth_year": 1997,
+        "birthday": "1997-10-27",
+        "first_name": "Tristan",
+        "hometown": "Germany",
+        "id": 62,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/62/220px_fly_power_of_evil_2020_split_2.png",
+        "last_name": "Schrage",
+        "name": "PowerOfEvil",
+        "nationality": "DE",
+        "role": "mid",
+        "slug": "powerofevil"
+      },
+      "player_id": 62,
+      "role": "mid",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 39,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/76f3d1cbc7111379f6efe2d1098b04c4.png",
+          "name": "Teleport"
+        }
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "total_damage": {
+        "dealt": 149931,
+        "dealt_to_champions": 12138,
+        "taken": 7954
+      },
+      "total_heal": 2609,
+      "total_time_crowd_control_dealt": 41,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 10310,
+        "dealt_to_champions": 150,
+        "taken": 0
+      },
+      "wards": {
+        "placed": 14,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 6
+      },
+      "wards_placed": 14
+    },
+    {
+      "assists": 6,
+      "champion": {
+        "id": 2518,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/1ea58740d3fa308f358fa6130df24272.png",
+        "name": "Jarvan IV"
+      },
+      "deaths": 6,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": true,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 7324,
+      "gold_spent": 6545,
+      "items": [
+        {
+          "id": 607,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/6d51b303301cf79d46fa1d5bbeff6cfc.png",
+          "is_trinket": false,
+          "name": "Broken Stopwatch"
+        },
+        {
+          "id": 739,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/fb852b2d77a530ea9b91e11aa0843189.png",
+          "is_trinket": false,
+          "name": "Negatron Cloak"
+        },
+        {
+          "id": 763,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/5ba37eac42cc49bc63105bcd274482de.png",
+          "is_trinket": false,
+          "name": "Control Ward"
+        },
+        {
+          "id": 829,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/4b797e5950637a59468dd6533c751f84.png",
+          "is_trinket": false,
+          "name": "Skirmisher's Sabre (Enchantment: Cinderhulk)"
+        },
+        {
+          "id": 849,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/d4e9f9f7d26cd803b7fcc3dba1799a6d.png",
+          "is_trinket": false,
+          "name": "Kindlegem"
+        },
+        {
+          "id": 1649,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/02b26d6b82ec3b0f8ca1b8f7c2f287d4.png",
+          "is_trinket": false,
+          "name": "Ninja Tabi"
+        },
+        {
+          "id": 1650,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/2be8a2aee6c46dbf952a54e1d63c457b.png",
+          "is_trinket": true,
+          "name": "Oracle Lens"
+        }
+      ],
+      "kills": 1,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 91,
+        "neutral_minions_enemy_jungle": 15,
+        "neutral_minions_team_jungle": 49,
+        "players": 1,
+        "turrets": 0,
+        "wards": 4
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 0,
+      "largest_multi_kill": 1,
+      "level": 12,
+      "magic_damage": {
+        "dealt": 24755,
+        "dealt_to_champions": 842
+      },
+      "masteries": [],
+      "minions_killed": 104,
+      "opponent": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "physical_damage": {
+        "dealt": 57760,
+        "dealt_to_champions": 4827,
+        "taken": 13072
+      },
+      "player": {
+        "birth_year": 1996,
+        "birthday": "1996-12-26",
+        "first_name": "Matthew",
+        "hometown": "USA",
+        "id": 223,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/223/220px_dig_akaadian_2020_split_2.png",
+        "last_name": "Higginbotham",
+        "name": "Akaadian",
+        "nationality": "US",
+        "role": "jun",
+        "slug": "akaadian"
+      },
+      "player_id": 223,
+      "role": "jun",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 36,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/d79fd9cc23f23592c1085e1b5262cc70.png",
+          "name": "Smite"
+        }
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "total_damage": {
+        "dealt": 88678,
+        "dealt_to_champions": 6234,
+        "taken": 21499
+      },
+      "total_heal": 5156,
+      "total_time_crowd_control_dealt": 309,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 6161,
+        "dealt_to_champions": 563,
+        "taken": 689
+      },
+      "wards": {
+        "placed": 19,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 9
+      },
+      "wards_placed": 19
+    },
+    {
+      "assists": 8,
+      "champion": {
+        "id": 2437,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/c0bb039cdc9be97baf258ad3e8ba42f4.png",
+        "name": "Sivir"
+      },
+      "deaths": 3,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": true,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": true,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 10459,
+      "gold_spent": 8550,
+      "items": [
+        {
+          "id": 598,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/e461cfe6c896c08cd2793cd3c939d6db.png",
+          "is_trinket": false,
+          "name": "Zeal"
+        },
+        {
+          "id": 658,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/10a2d40528e72648c9f385a371046365.png",
+          "is_trinket": false,
+          "name": "Cloak of Agility"
+        },
+        {
+          "id": 691,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/b130bc5251674f1209fac332455b95e4.png",
+          "is_trinket": false,
+          "name": "B. F. Sword"
+        },
+        {
+          "id": 697,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/b363d0d9b15399262a546f7cb8097b80.png",
+          "is_trinket": false,
+          "name": "Doran's Blade"
+        },
+        {
+          "id": 729,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1f0567dfa7af0cef5a8853ca18c97985.png",
+          "is_trinket": true,
+          "name": "Farsight Alteration"
+        },
+        {
+          "id": 753,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/141100d5bae3aa9b90745717faa6bc10.png",
+          "is_trinket": false,
+          "name": "Berserker's Greaves"
+        },
+        {
+          "id": 2351,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/104a823907fec3dbfcbf346217d18730.png",
+          "is_trinket": false,
+          "name": "Essence Reaver"
+        }
+      ],
+      "kills": 2,
+      "kills_counters": {
+        "inhibitors": 2,
+        "neutral_minions": 4,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 4,
+        "players": 2,
+        "turrets": 1,
+        "wards": 9
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 513,
+      "largest_killing_spree": 2,
+      "largest_multi_kill": 1,
+      "level": 13,
+      "magic_damage": {
+        "dealt": 0,
+        "dealt_to_champions": 0
+      },
+      "masteries": [],
+      "minions_killed": 218,
+      "opponent": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "physical_damage": {
+        "dealt": 129194,
+        "dealt_to_champions": 5065,
+        "taken": 5674
+      },
+      "player": {
+        "birth_year": 1997,
+        "birthday": "1997-03-16",
+        "first_name": "Trevor",
+        "hometown": "USA",
+        "id": 229,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/229/220px_clg_stixxay_2020_split_1.png",
+        "last_name": "Hayes",
+        "name": "Stixxay",
+        "nationality": "US",
+        "role": "adc",
+        "slug": "stixxay"
+      },
+      "player_id": 229,
+      "role": "adc",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 39,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/76f3d1cbc7111379f6efe2d1098b04c4.png",
+          "name": "Teleport"
+        }
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "total_damage": {
+        "dealt": 129260,
+        "dealt_to_champions": 5065,
+        "taken": 9126
+      },
+      "total_heal": 375,
+      "total_time_crowd_control_dealt": 11,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 66,
+        "dealt_to_champions": 0,
+        "taken": 334
+      },
+      "wards": {
+        "placed": 14,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 6
+      },
+      "wards_placed": 14
+    },
+    {
+      "assists": 11,
+      "champion": {
+        "id": 2530,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/d5eb5c576e413c134674965c42f192d7.png",
+        "name": "Yuumi"
+      },
+      "deaths": 0,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": true,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 7696,
+      "gold_spent": 5625,
+      "items": [
+        {
+          "id": 740,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/b14a54f3efe04d9b4cb02be4965b2500.png",
+          "is_trinket": false,
+          "name": "Forbidden Idol"
+        },
+        {
+          "id": 742,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/acdbdbfee7621b692afc04d56d32c9b4.png",
+          "is_trinket": false,
+          "name": "Aether Wisp"
+        },
+        {
+          "id": 841,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/ca55e08d5a2b744a4d3e249a1d56f1f2.png",
+          "is_trinket": false,
+          "name": "Athene's Unholy Grail"
+        },
+        {
+          "id": 1650,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/2be8a2aee6c46dbf952a54e1d63c457b.png",
+          "is_trinket": true,
+          "name": "Oracle Lens"
+        },
+        {
+          "id": 2280,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/f999f4c6e6a368bb7c9dc10af7bccd05.png",
+          "is_trinket": false,
+          "name": "Frostfang"
+        },
+        {
+          "id": 2336,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/e6d893100a54053a1090cf672d526155.png",
+          "is_trinket": false,
+          "name": "The Dark Seal"
+        }
+      ],
+      "kills": 3,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 4,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 0,
+        "players": 3,
+        "turrets": 0,
+        "wards": 4
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 3,
+      "largest_multi_kill": 1,
+      "level": 13,
+      "magic_damage": {
+        "dealt": 15414,
+        "dealt_to_champions": 10294
+      },
+      "masteries": [],
+      "minions_killed": 10,
+      "opponent": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "physical_damage": {
+        "dealt": 3129,
+        "dealt_to_champions": 725,
+        "taken": 1245
+      },
+      "player": {
+        "birth_year": 1996,
+        "birthday": "1996-09-17",
+        "first_name": "Vincent",
+        "hometown": "",
+        "id": 510,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/510/220px_tsm_biofrost_2020_split_1.png",
+        "last_name": "Wang",
+        "name": "Biofrost",
+        "nationality": "CA",
+        "role": "sup",
+        "slug": "biofrost"
+      },
+      "player_id": 510,
+      "role": "sup",
+      "runes": [],
+      "spells": [
+        {
+          "id": 27,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/37e058ce96cf92adf6831ad5946956f4.png",
+          "name": "Exhaust"
+        },
+        {
+          "id": 30,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/62cc94a564835cd3abd80d74346c35da.png",
+          "name": "Heal"
+        }
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "total_damage": {
+        "dealt": 18543,
+        "dealt_to_champions": 11020,
+        "taken": 2322
+      },
+      "total_heal": 6914,
+      "total_time_crowd_control_dealt": 70,
+      "total_units_healed": 4,
+      "true_damage": {
+        "dealt": 0,
+        "dealt_to_champions": 0,
+        "taken": 0
+      },
+      "wards": {
+        "placed": 23,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 9
+      },
+      "wards_placed": 23
+    },
+    {
+      "assists": 1,
+      "champion": {
+        "id": 2497,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/8c420ee28e07c4324e4ca4ad09927021.png",
+        "name": "Yasuo"
+      },
+      "deaths": 6,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 8899,
+      "gold_spent": 8360,
+      "items": [
+        {
+          "id": 692,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1308efec82ddc88b23c3bd862e78544d.png",
+          "is_trinket": false,
+          "name": "Pickaxe"
+        },
+        {
+          "id": 699,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/f15dbbe112c58b981577abd6bbd3fb52.png",
+          "is_trinket": false,
+          "name": "Doran's Shield"
+        },
+        {
+          "id": 729,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1f0567dfa7af0cef5a8853ca18c97985.png",
+          "is_trinket": true,
+          "name": "Farsight Alteration"
+        },
+        {
+          "id": 753,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/141100d5bae3aa9b90745717faa6bc10.png",
+          "is_trinket": false,
+          "name": "Berserker's Greaves"
+        },
+        {
+          "id": 763,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/5ba37eac42cc49bc63105bcd274482de.png",
+          "is_trinket": false,
+          "name": "Control Ward"
+        },
+        {
+          "id": 2255,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/319e221133aa3cff89e9a2953a7cfebb.png",
+          "is_trinket": false,
+          "name": "Guardian Angel"
+        },
+        {
+          "id": 2328,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/639c5f86d9e81b45b886f266a8b85a03.png",
+          "is_trinket": false,
+          "name": "Statikk Shiv"
+        }
+      ],
+      "kills": 2,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 12,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 8,
+        "players": 2,
+        "turrets": 0,
+        "wards": 2
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 409,
+      "largest_killing_spree": 0,
+      "largest_multi_kill": 1,
+      "level": 12,
+      "magic_damage": {
+        "dealt": 17483,
+        "dealt_to_champions": 843
+      },
+      "masteries": [],
+      "minions_killed": 208,
+      "opponent": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "physical_damage": {
+        "dealt": 95813,
+        "dealt_to_champions": 4131,
+        "taken": 8664
+      },
+      "player": {
+        "birth_year": 1997,
+        "birthday": "1997-06-24",
+        "first_name": "Jesper",
+        "hometown": "Denmark",
+        "id": 680,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/680/220px_c9_zven_2020_split_2.png",
+        "last_name": "Svenningsen",
+        "name": "Zven",
+        "nationality": "DK",
+        "role": "adc",
+        "slug": "zven"
+      },
+      "player_id": 680,
+      "role": "adc",
+      "runes": [],
+      "spells": [
+        {
+          "id": 27,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/37e058ce96cf92adf6831ad5946956f4.png",
+          "name": "Exhaust"
+        },
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        }
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "total_damage": {
+        "dealt": 113570,
+        "dealt_to_champions": 5248,
+        "taken": 15678
+      },
+      "total_heal": 2244,
+      "total_time_crowd_control_dealt": 114,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 273,
+        "dealt_to_champions": 273,
+        "taken": 132
+      },
+      "wards": {
+        "placed": 8,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 3
+      },
+      "wards_placed": 8
+    },
+    {
+      "assists": 5,
+      "champion": {
+        "id": 2516,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/df4f3e50d7a305a78b48e6e012679ac7.png",
+        "name": "Aatrox"
+      },
+      "deaths": 2,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 10911,
+      "gold_spent": 8805,
+      "items": [
+        {
+          "id": 693,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/d9b5b63b9689ce61ac51d187d91bb758.png",
+          "is_trinket": false,
+          "name": "Long Sword"
+        },
+        {
+          "id": 699,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/f15dbbe112c58b981577abd6bbd3fb52.png",
+          "is_trinket": false,
+          "name": "Doran's Shield"
+        },
+        {
+          "id": 700,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/8bdeca3d0d7995c8b68aed6d0a564798.png",
+          "is_trinket": false,
+          "name": "Mercury's Treads"
+        },
+        {
+          "id": 792,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/348b927129e94e61fd069b28668d5be5.png",
+          "is_trinket": false,
+          "name": "Maw of Malmortius"
+        },
+        {
+          "id": 855,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/28d8cc072e1b79e1e029ffdfdd1fc1e9.png",
+          "is_trinket": false,
+          "name": "The Black Cleaver"
+        },
+        {
+          "id": 1650,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/2be8a2aee6c46dbf952a54e1d63c457b.png",
+          "is_trinket": true,
+          "name": "Oracle Lens"
+        }
+      ],
+      "kills": 3,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 19,
+        "neutral_minions_enemy_jungle": 8,
+        "neutral_minions_team_jungle": 3,
+        "players": 3,
+        "turrets": 2,
+        "wards": 4
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 2,
+      "largest_multi_kill": 1,
+      "level": 15,
+      "magic_damage": {
+        "dealt": 0,
+        "dealt_to_champions": 0
+      },
+      "masteries": [],
+      "minions_killed": 191,
+      "opponent": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "physical_damage": {
+        "dealt": 117208,
+        "dealt_to_champions": 10693,
+        "taken": 10905
+      },
+      "player": {
+        "birth_year": 1995,
+        "birthday": "1995-11-16",
+        "first_name": "Kim",
+        "hometown": "South Korea",
+        "id": 1414,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/1414/220px_clg_ruin_2020_split_1.png",
+        "last_name": "Hyeong-min",
+        "name": "Ruin",
+        "nationality": "KR",
+        "role": "top",
+        "slug": "ruin"
+      },
+      "player_id": 1414,
+      "role": "top",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 39,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/76f3d1cbc7111379f6efe2d1098b04c4.png",
+          "name": "Teleport"
+        }
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "total_damage": {
+        "dealt": 119621,
+        "dealt_to_champions": 11104,
+        "taken": 22501
+      },
+      "total_heal": 9170,
+      "total_time_crowd_control_dealt": 184,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 2413,
+        "dealt_to_champions": 410,
+        "taken": 1575
+      },
+      "wards": {
+        "placed": 11,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 5
+      },
+      "wards_placed": 11
+    },
+    {
+      "assists": 9,
+      "champion": {
+        "id": 2512,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/f71f2b20ad8b043358b3e4806254b729.png",
+        "name": "Sylas"
+      },
+      "deaths": 1,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": true,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": false,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 10192,
+      "gold_spent": 8800,
+      "items": [
+        {
+          "id": 606,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/54b081bb06fb82941f377e2539d7139a.png",
+          "is_trinket": false,
+          "name": "Slightly Magical Boots"
+        },
+        {
+          "id": 730,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/1a2a1f1ccc3759c080bcce235061f8f4.png",
+          "is_trinket": false,
+          "name": "Refillable Potion"
+        },
+        {
+          "id": 799,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/05b39e9be3b2d92579ae68e2e84de353.png",
+          "is_trinket": false,
+          "name": "Hextech Protobelt-01"
+        },
+        {
+          "id": 1650,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/2be8a2aee6c46dbf952a54e1d63c457b.png",
+          "is_trinket": true,
+          "name": "Oracle Lens"
+        },
+        {
+          "id": 1671,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/3f0125e2f0531314ad5dcb41a63858c3.png",
+          "is_trinket": false,
+          "name": "Zhonya's Hourglass"
+        },
+        {
+          "id": 2346,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/c798c8b77c3d8a0f6aa074849ab24897.png",
+          "is_trinket": false,
+          "name": "Skirmisher's Sabre (Enchantment: Runic Echoes)"
+        }
+      ],
+      "kills": 4,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 98,
+        "neutral_minions_enemy_jungle": 13,
+        "neutral_minions_team_jungle": 57,
+        "players": 4,
+        "turrets": 0,
+        "wards": 8
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 3,
+      "largest_multi_kill": 1,
+      "level": 14,
+      "magic_damage": {
+        "dealt": 105607,
+        "dealt_to_champions": 11906
+      },
+      "masteries": [],
+      "minions_killed": 137,
+      "opponent": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "physical_damage": {
+        "dealt": 15711,
+        "dealt_to_champions": 1185,
+        "taken": 12171
+      },
+      "player": {
+        "birth_year": 1997,
+        "birthday": "1997-09-11",
+        "first_name": "Raymond",
+        "hometown": null,
+        "id": 1564,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/1564/220px_clg_wiggily_2020_split_1.png",
+        "last_name": "Griffin",
+        "name": "Griffin",
+        "nationality": "US",
+        "role": "jun",
+        "slug": "wiggily"
+      },
+      "player_id": 1564,
+      "role": "jun",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 36,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/d79fd9cc23f23592c1085e1b5262cc70.png",
+          "name": "Smite"
+        }
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "total_damage": {
+        "dealt": 130820,
+        "dealt_to_champions": 14072,
+        "taken": 20756
+      },
+      "total_heal": 9880,
+      "total_time_crowd_control_dealt": 464,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 9501,
+        "dealt_to_champions": 980,
+        "taken": 207
+      },
+      "wards": {
+        "placed": 10,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 10
+      },
+      "wards_placed": 10
+    },
+    {
+      "assists": 2,
+      "champion": {
+        "id": 2390,
+        "image_url": "https://cdn.dev.pandascore.co/images/lol/champion/image/b7d494fbf31cc0cbee6fce5e85212cab.png",
+        "name": "Kennen"
+      },
+      "deaths": 1,
+      "flags": {
+        "first_blood_assist": false,
+        "first_blood_kill": false,
+        "first_inhibitor_assist": false,
+        "first_inhibitor_kill": false,
+        "first_tower_assist": true,
+        "first_tower_kill": false
+      },
+      "game_id": 206047,
+      "gold_earned": 8945,
+      "gold_spent": 8975,
+      "items": [
+        {
+          "id": 607,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/6d51b303301cf79d46fa1d5bbeff6cfc.png",
+          "is_trinket": false,
+          "name": "Broken Stopwatch"
+        },
+        {
+          "id": 686,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/cca73841a0e9c351079ac62854217208.png",
+          "is_trinket": true,
+          "name": "Warding Totem (Trinket)"
+        },
+        {
+          "id": 763,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/5ba37eac42cc49bc63105bcd274482de.png",
+          "is_trinket": false,
+          "name": "Control Ward"
+        },
+        {
+          "id": 774,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/7435cc1cbd363cebc83363809250d07d.png",
+          "is_trinket": false,
+          "name": "Sorcerer's Shoes"
+        },
+        {
+          "id": 2318,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/3382a1c98d5252e1230a09b7e25a43a5.png",
+          "is_trinket": false,
+          "name": "Morellonomicon"
+        },
+        {
+          "id": 2339,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/item/image/52b4d3d49afbe585f9814a382707a8ce.png",
+          "is_trinket": false,
+          "name": "Hextech Gunblade"
+        }
+      ],
+      "kills": 1,
+      "kills_counters": {
+        "inhibitors": 0,
+        "neutral_minions": 4,
+        "neutral_minions_enemy_jungle": 0,
+        "neutral_minions_team_jungle": 4,
+        "players": 1,
+        "turrets": 0,
+        "wards": 3
+      },
+      "kills_series": {
+        "double_kills": 0,
+        "penta_kills": 0,
+        "quadra_kills": 0,
+        "triple_kills": 0
+      },
+      "largest_critical_strike": 0,
+      "largest_killing_spree": 0,
+      "largest_multi_kill": 1,
+      "level": 14,
+      "magic_damage": {
+        "dealt": 63491,
+        "dealt_to_champions": 7679
+      },
+      "masteries": [],
+      "minions_killed": 203,
+      "opponent": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "physical_damage": {
+        "dealt": 31823,
+        "dealt_to_champions": 3622,
+        "taken": 7835
+      },
+      "player": {
+        "birth_year": 2000,
+        "birthday": "2000-01-19",
+        "first_name": "Sergen",
+        "hometown": "Türkiye",
+        "id": 1718,
+        "image_url": "https://cdn.dev.pandascore.co/images/player/image/1718/220px_tsm_broken_blade_2020_split_1.png",
+        "last_name": "Çelik",
+        "name": "Broken Blade",
+        "nationality": "DE",
+        "role": "top",
+        "slug": "broken-blade"
+      },
+      "player_id": 1718,
+      "role": "top",
+      "runes": [],
+      "spells": [
+        {
+          "id": 28,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/c4122701056f18d242c22b2c0bd35642.png",
+          "name": "Flash"
+        },
+        {
+          "id": 39,
+          "image_url": "https://cdn.dev.pandascore.co/images/lol/spell/image/76f3d1cbc7111379f6efe2d1098b04c4.png",
+          "name": "Teleport"
+        }
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "total_damage": {
+        "dealt": 103678,
+        "dealt_to_champions": 11301,
+        "taken": 12693
+      },
+      "total_heal": 4828,
+      "total_time_crowd_control_dealt": 53,
+      "total_units_healed": 1,
+      "true_damage": {
+        "dealt": 8363,
+        "dealt_to_champions": 0,
+        "taken": 87
+      },
+      "wards": {
+        "placed": 12,
+        "sight_wards_bought_in_game": 0,
+        "vision_wards_bought_in_game": 5
+      },
+      "wards_placed": 12
+    }
+  ],
+  "position": 1,
+  "status": "finished",
+  "teams": [
+    {
+      "bans": [
+        2438,
+        2482,
+        2509,
+        2384,
+        2462
+      ],
+      "baron_kills": 0,
+      "cloud_drake_kills": 0,
+      "color": "red",
+      "dragon_kills": 2,
+      "elder_drake_kills": 0,
+      "first_baron": false,
+      "first_blood": false,
+      "first_dragon": false,
+      "first_inhibitor": false,
+      "first_tower": true,
+      "gold_earned": 39230,
+      "herald_kills": 0,
+      "infernal_drake_kills": 1,
+      "inhibitor_kills": 0,
+      "kills": 7,
+      "mountain_drake_kills": 0,
+      "ocean_drake_kills": 1,
+      "player_ids": [
+        40,
+        53,
+        223,
+        680,
+        1718
+      ],
+      "team": {
+        "acronym": "TSM",
+        "id": 387,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/387/team-solomid-bjjwknt9.png",
+        "location": "US",
+        "modified_at": "2020-12-07T19:09:41Z",
+        "name": "Team SoloMid",
+        "slug": "solomid"
+      },
+      "tower_kills": 1
+    },
+    {
+      "bans": [
+        2452,
+        2494,
+        2439,
+        2493,
+        2401
+      ],
+      "baron_kills": 1,
+      "cloud_drake_kills": 1,
+      "color": "blue",
+      "dragon_kills": 2,
+      "elder_drake_kills": 0,
+      "first_baron": true,
+      "first_blood": true,
+      "first_dragon": true,
+      "first_inhibitor": true,
+      "first_tower": false,
+      "gold_earned": 52185,
+      "herald_kills": 1,
+      "infernal_drake_kills": 0,
+      "inhibitor_kills": 2,
+      "kills": 18,
+      "mountain_drake_kills": 0,
+      "ocean_drake_kills": 1,
+      "player_ids": [
+        62,
+        229,
+        510,
+        1414,
+        1564
+      ],
+      "team": {
+        "acronym": "CLG",
+        "id": 389,
+        "image_url": "https://cdn.dev.pandascore.co/images/team/image/389/download.png",
+        "location": "US",
+        "modified_at": "2020-12-09T10:30:51Z",
+        "name": "Counter Logic Gaming",
+        "slug": "counter-logic-gaming"
+      },
+      "tower_kills": 11
+    }
+  ],
+  "video_url": null,
+  "winner": {
+    "id": 389,
+    "type": "Team"
+  },
+  "winner_type": "Team"
+}

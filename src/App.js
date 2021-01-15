@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "rsuite";
-import firebaseConf from '../src/assets/fire';
-import HomeAdmin from "./Admin/HomeAdmin";
-
+import firebaseConf from "../src/assets/fire";
+import Calendario from "./Admin/Calendario";
+// import HomeAdmin from "./Admin/HomeAdmin";
+import { Container, Row, Col } from "shards-react";
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,12 +12,12 @@ class App extends React.Component {
       alertData: {},
     };
   }
-  
+
   render() {
     return (
-      <Container style={{padding:20}}>
+      <Container style={{ padding: 20 }}>
         hola soy home
-        <HomeAdmin></HomeAdmin>
+        <Calendario></Calendario>
       </Container>
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "rsuite";
-import AddCampeon from "./AddCampeon";
+// import AddCampeon from "./AddCampeon";
 
 class HomeAdmin extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class HomeAdmin extends React.Component {
     return (
       <Container style={{ padding: 20 }}>
           HOlasoy admin
-        <AddCampeon></AddCampeon>
+        {/* <AddCampeon></AddCampeon> */}
       </Container>
     );
   }
